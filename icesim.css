@@ -65,13 +65,17 @@ button {
 
 #tablecontainer {
   align-content: center;
-  margin-left: 50%;
-  margin-right: 50%;
 }
 
 #start, #reset {
   width: auto;
   height: auto;
+}
+
+.sphere {
+  width: 90px;
+  height: 90px;
+  margin-left: 290px;
 }
 
 @keyframes flash {
