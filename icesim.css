@@ -1,0 +1,54 @@
+.icicle {
+    background-color: skyblue;
+}
+
+.dest {
+    background-color: orange;
+}
+
+.wait {
+    background-color: red;
+}
+
+.bridge {
+    background-color: royalblue;
+}
+
+.highlight {
+    animation-name: flash;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+#wincount {
+    color: green;
+}
+
+#losecount {
+    color: red;
+}
+
+#passfailcontainer {
+    background-color: gray;
+}
+
+#description {
+    font-size: 18pt;
+}
+
+#pfindicator {
+    font-size: 20pt;
+}
+
+@keyframes flash {
+    0% {
+      background-color: #222;
+    }
+    50% {
+      background-color: lightgreen;
+    }
+    100% {
+      background-color: #222;
+    }
+}
+
