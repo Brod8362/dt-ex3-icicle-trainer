@@ -1,25 +1,25 @@
 tr, td {
     padding: 0;
   }
+
+table {
+  border-collapse: collapse; 
+}
+
+td {
+  width: 35px;
+  height: 35px;
+  background-color: rgb(219, 214, 224);
+}
+
+button {
+  width: 100%;
+  height: 100%;
+}
   
-  table {
-    border-collapse: collapse; 
-  }
-  
-  td {
-    width: 3vw;
-    height: 3vh;
-    background-color: rgb(219, 214, 224);
-  }
-  
-  button {
-    width: 3vw;
-    height: 3vh;
-  }
-  
-  .walkway {
-    background-color: #868494;
-  }
+.walkway {
+  background-color: #868494;
+}
 
 .icicle {
     background-color: skyblue;
@@ -35,8 +35,6 @@ tr, td {
 
 .bridge {
     background-color: royalblue;
-    width: 9vw;
-    height: 6vh;
 }
 
 .highlight {
@@ -63,6 +61,17 @@ tr, td {
 
 #pfindicator {
     font-size: 20pt;
+}
+
+#tablecontainer {
+  align-content: center;
+  margin-left: 50%;
+  margin-right: 50%;
+}
+
+#start, #reset {
+  width: auto;
+  height: auto;
 }
 
 @keyframes flash {
