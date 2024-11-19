@@ -1,7 +1,30 @@
 "use strict";
-const icicles= document.getElementsByClassName("icicle");
-const destinations = document.getElementsByClassName("dest");
-const bridges = document.getElementsByClassName("bridge");
+const icicles= [
+    document.getElementById("e1"),
+    document.getElementById("e2"),
+    document.getElementById("e3"),
+    document.getElementById("e4"),
+    document.getElementById("e5"),
+    document.getElementById("e6"),
+    document.getElementById("e7"),
+    document.getElementById("e8")
+];
+const destinations = [
+    document.getElementById("d1"),
+    document.getElementById("d2"),
+    document.getElementById("d3"),
+    document.getElementById("d4"),
+    document.getElementById("d5"),
+    document.getElementById("d6"),
+    document.getElementById("d7"),
+    document.getElementById("d8")
+];
+const bridges = [
+    document.getElementById("b1"),
+    document.getElementById("b2"),
+    document.getElementById("b3"),
+    document.getElementById("b4"),
+]
 const wait = document.getElementById("w");
 
 let cheat_mode = false;

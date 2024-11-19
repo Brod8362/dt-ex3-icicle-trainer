@@ -1,3 +1,26 @@
+tr, td {
+    padding: 0;
+  }
+  
+  table {
+    border-collapse: collapse; 
+  }
+  
+  td {
+    width: 3vw;
+    height: 3vh;
+    background-color: rgb(219, 214, 224);
+  }
+  
+  button {
+    width: 3vw;
+    height: 3vh;
+  }
+  
+  .walkway {
+    background-color: #868494;
+  }
+
 .icicle {
     background-color: skyblue;
 }
@@ -12,6 +35,8 @@
 
 .bridge {
     background-color: royalblue;
+    width: 9vw;
+    height: 6vh;
 }
 
 .highlight {
